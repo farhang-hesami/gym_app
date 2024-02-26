@@ -1,0 +1,53 @@
+name: gym_app
+description: A new Flutter project.
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  easy_localization: ^3.0.1
+  flutter_svg: ^2.0.5
+  shared_preferences: ^2.1.0
+  persian_datetime_picker: ^2.5.0
+  dio: ^5.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/translations/
+    - assets/icons/
+
+  fonts:
+
+    - family: YekanBakh
+      fonts:
+        - asset: assets/fonts/fa/yekan_bakh_black.ttf
+          weight: 900
+        - asset: assets/fonts/fa/yekan_bakh_bold.ttf
+          weight: 700
+        - asset: assets/fonts/fa/yekan_bakh_medium.ttf
+          weight: 500
+        - asset: assets/fonts/fa/yekan_bakh_regular.ttf
+          weight: 400
+
+    - family: Gilroy
+      fonts:
+        - asset: assets/fonts/en/gilroy_bold.otf
+          weight: 700
+        - asset: assets/fonts/en/gilroy_regular.otf
+          weight: 400
